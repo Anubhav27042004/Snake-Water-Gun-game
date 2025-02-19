@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Water Gun Game</title>
+<style>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      color: #00ff7f;
+    }
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+    button {
+      background-color: #1f1f1f;
+      color: #00ff7f;
+      border: 2px solid #00ff7f;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 10px;
+      width: 200px;
+    }
+    button:hover {
+      background-color: #00ff7f;
+      color: #1f1f1f;
+    }
+    iframe {
+      display: none;
+      border: none;
+      width: 100%;
+      height: 80vh;
+      background-color: #121212;
+    }
+    
+  </style>
+</head>
+<body>
+  <h1>Snake Water Gun Game</h1>
+  <p>Choose your mode:</p>
+
+  <div class="button-container">
+    <button onclick="window.location.href='singleplayer.html'">Single Player</button>
+  <button onclick="window.location.href='multiplayer.html'">Multiplayer</button>
+  </div>
+ 
+
+    </body>
+</html>
